@@ -1,0 +1,197 @@
+body {
+    font-family: Verdana;
+}
+.grid-container {
+    margin-top:30px;
+    display: grid;
+    width: 90%;
+    margin-right: 5%;
+    margin-left: 5%;
+    grid-template-columns: 280px 280px 280px;
+    grid-gap:30px;
+    justify-content:center;
+}
+
+.flex-container {
+    display: flex;
+    
+}
+.flex-container2{
+    display:flex;
+    justify-content:center;
+    flex-basis:auto;
+}
+
+div {
+    display: inline-flex;
+}
+
+    div.div0 {
+        margin-left: 200px;
+        margin-right: 100px;
+    }
+
+    div.background {
+        background-image: url(https://www.carepointmedical.com.au/wp-content/uploads/2020/08/doctors_three.jpg);
+        width: 90%;
+        margin-right: 5%;
+        margin-left: 5%;
+        height: 500px;
+
+    }
+    div.background2 {
+        background-image: url(https://www.johnturner.co.uk/wp-content/uploads/2022/05/Full-Width-Easy-Slider-1920px-800px-IR9-2.jpg);
+        width: 90%;
+        margin-bottom:100px;
+        margin-right: 5%;
+        margin-left: 5%;
+        height: 500px;
+        background-color: #00A78B;
+        background-blend-mode: screen;
+        display:block;
+        margin-top:0;
+        text-align:center;
+        color:white;
+    }
+    div.background3 {
+        background-color: #171717;
+        display:block;
+        margin-top:30px;
+        padding: 20px 0px;
+    }
+    div.div1 {
+        float: right;
+    }
+
+    div.div2 {
+        margin-left: 150px;
+        margin-top: 100px;
+        display:inline;
+    }
+    div.div3{
+        display:normal;
+        margin: 10px 0px;
+    }
+    
+
+figure {
+    margin-right: 10px;
+    margin-left: 25px;
+}
+
+p {
+    font-size: 14px;
+    
+}
+
+    p.p1 {
+        font-size: 28px;
+        font-weight:600;
+        margin-bottom:20px;
+        color:black;
+    }
+    p.p2{
+        font-weight:bold;
+        font-size: 16px;
+    }
+    p.p3{
+        margin-bottom:75px;
+    }
+    p.p4{
+        margin-bottom:30px;
+    }
+    p.p5 {
+        color: #7F7F7F;
+
+    }
+    p.p6 {
+        color: #7F7F7F;
+        position:relative;
+        bottom:10px;
+    }
+   
+
+article{
+    margin:0 50px;
+}
+strong {
+    font-size: 25px;
+    margin-bottom: 3px;
+}
+
+.img1 {
+    float: left;
+    display:inline;
+}
+
+
+b {
+    font-size: 13px;
+}
+
+strong.lightblue {
+    color: #2196BD;
+}
+
+nav {
+    margin-left: 220px;
+    margin-right: 300px;
+    margin-bottom: 40px;
+    margin-top: 20px;
+}
+
+a {
+    color: #868686;
+    margin-left: 10px;
+    margin-right: 10px;
+    font-weight: bold;
+}
+
+    a.a1 {
+        color: black;
+        font-weight: bold;
+    }
+
+button {
+    border-radius: 25px;
+    background-color: #1B98E6;
+    padding:10px 20px;
+    font-size:16px;
+    font-weight:600;
+    margin-top:30px;
+    border: 1px;
+    color:white;
+}
+h1{
+    position:relative;
+    top:10px;
+    margin-bottom:30px;
+    margin-top:0;
+}
+center {
+    color: #5C5C5C;
+}
+h2{
+    margin:10px;
+}
+h3{
+    color:white
+}
+ul{
+    color:white;
+}
+li{
+    margin:10px 0px;
+}
+input {
+    outline: none;
+    border:3px, solid, grey;
+    border-style:none none solid none;
+    background: #171717;
+    color:white;
+    margin:5px 0px;
+    padding-bottom:10px;
+}
+    input.input2 {
+        padding-bottom: 70px;
+    }
